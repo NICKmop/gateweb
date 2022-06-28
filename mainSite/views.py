@@ -14,3 +14,8 @@ def posting(request, pk):
 # 포트폴리오 URL 실행
 def portfolioindex(request):
     return render(request,'portfolio/index.html');
+
+# btrsp
+def custombootstrap(request):
+    return render(request,'theme/index.html');
+    

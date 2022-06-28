@@ -29,4 +29,5 @@ urlpatterns = [
 
     #포폴 만들어 보기
     path('portfolio', views.portfolioindex, name='portfolioindex'),
+
 ]
