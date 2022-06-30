@@ -413,7 +413,7 @@ a:focus, a:hover {
   vertical-align: 2px;
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: rgb(123, 89, 89);
   font-size: 14px;
   line-height: 26px;
   padding: 20px 15px;
@@ -1212,6 +1212,17 @@ a:focus, a:hover {
   margin-bottom: 20px;
   width: 55px;
   transition: all 0.3s ease 0s;
+}
+#left_button {
+  background-color: red;
+  color: red;
+  width: 100px;
+}
+#right_button {
+  background-color: red;
+  color: red;
+  float: right;
+  width: 100px;
 }
 /*=================================================================
   Our skills
@@ -2184,3 +2195,4 @@ a:focus, a:hover {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
