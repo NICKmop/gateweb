@@ -76,9 +76,17 @@ WSGI_APPLICATION = 'gateweb.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'XE',
+        'USER' : 'system',
+        'PASSWORD' : 'oracle',
+        'HOST' : '10.10.200.130',
+        'PORT' : '1521',
     }
 }
 
@@ -111,7 +119,9 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USER_L10N = True
+
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

@@ -169,6 +169,16 @@ Start About Section
       <div class="col-md-8">
         <!-- <div class="row text-center"> -->
         <div class="rowsBox text-center">
+            <tbody>
+                {% for skill in skills %}
+                  <tr>
+                      <td>{{ skill.nokey }}</td>
+                      <td>{{ skill.sn }}</td>
+                      <td>{{ skill.sbs }}</td>
+                      <td>{{ skill.lv }}</td>
+                  </tr>
+                {% endfor %}
+            </tbody>
             <div class="col-md-6 col-sm-6">
                 <div class="service-item">
                     <i class="tf-ion-ios-alarm-outline"></i>
