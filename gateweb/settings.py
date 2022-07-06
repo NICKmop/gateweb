@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': 'XE',
-        'USER' : 'system',
-        'PASSWORD' : 'oracle',
+        'USER' : 'gateweb',
+        'PASSWORD' : 'gateweb',
         'HOST' : '10.10.200.130',
         'PORT' : '1521',
     }
