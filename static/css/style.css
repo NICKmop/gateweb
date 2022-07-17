@@ -1428,6 +1428,11 @@ a:focus, a:hover {
 /*=================================================================
   Latest Posts
 ==================================================================*/
+.Contact {
+  padding-bottom: 60px;
+  padding-top: 80px;
+}
+
 .blog {
   padding-bottom: 60px;
   padding-top: 80px;
@@ -2195,4 +2200,3 @@ a:focus, a:hover {
   }
 }
 /*# sourceMappingURL=style.css.map */
-
