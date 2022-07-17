@@ -18,3 +18,9 @@ class skills(models.Model):
     # skillstime = models.DateTimeField('date published')
     def __str__(self):
         return "this is a skills : {}".format(self.sn);
+
+class testModel(models.Model):
+    test = models.CharField(max_length=50);
+
+    def __str__(self) -> str:
+        return 'this is a test : {}'.format( super().__str__());

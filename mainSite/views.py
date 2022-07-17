@@ -1,5 +1,5 @@
 from django.shortcuts import render;
-from .models import Post, skills;
+from .models import Post, skills, testModel;
 
 # Create your views here - 기초 가이드
 def index(request):
@@ -16,5 +16,9 @@ def posting(request, pk):
 # 포트폴리오 URL 실행
 def portfolioindex(request):
     skillsList = skills.objects.all();
-    print(skillsList);
     return render(request,'portfolio/index.html', {'skillsList':skillsList});
+
+def test(request):
+    test = testModel.objects.all();
+    print("test : ", test);
+    return render(request,'portfolio/index.html', {'test':test});

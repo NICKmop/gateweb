@@ -76,18 +76,18 @@ WSGI_APPLICATION = 'gateweb.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'XE',
-        'USER' : 'gateweb',
-        'PASSWORD' : 'gateweb',
-        'HOST' : '10.10.200.130',
-        'PORT' : '1521',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.oracle',
+    #     'NAME': 'XE',
+    #     'USER' : 'gateweb',
+    #     'PASSWORD' : 'gateweb',
+    #     'HOST' : '10.10.200.130',
+    #     'PORT' : '1521',
+    # }
 }
 
 
