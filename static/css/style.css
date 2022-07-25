@@ -872,54 +872,6 @@ a:focus, a:hover {
   margin-top: 20px;
 }
 
-/*=================================================================
-  Contact
-  ==================================================================*/
-.contact-us {
-  padding: 100px 0 50px 0;
-}
-
-.contact-form {
-  margin-bottom: 40px;
-}
-.contact-form .form-control {
-  background-color: transparent;
-  border: 1px solid #dedede;
-  box-shadow: none;
-  height: 45px !important;
-  color: #0c0c0c;
-  height: 38px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  border-radius: 0;
-}
-.contact-form input:hover,
-.contact-form textarea:hover,
-.contact-form #contact-submit:hover {
-  border-color: #28ABE3;
-}
-.contact-form #contact-submit {
-  border: none;
-  padding: 15px 0;
-  width: 100%;
-  margin: 0;
-  background: #28ABE3;
-  color: #fff;
-  border-radius: 0;
-}
-.contact-form textarea.form-control {
-  padding: 10px;
-  height: 120px !important;
-  outline: none;
-}
-
-.contact-details .contact-short-info {
-  margin-top: 15px;
-}
-.contact-details .contact-short-info li {
-  margin-bottom: 6px;
-}
-
 .social-icon {
   margin-top: 20px;
 }
@@ -1213,17 +1165,28 @@ a:focus, a:hover {
   width: 55px;
   transition: all 0.3s ease 0s;
 }
-#left_button {
-  background-color: red;
-  color: red;
-  width: 100px;
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  
 }
-#right_button {
-  background-color: red;
-  color: red;
+
+.next {
+  background-color: #04AA6D;
+  color: white;
   float: right;
-  width: 100px;
 }
+
+.previous, .next {
+  font-size: xx-large;
+  width: 3%;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
 /*=================================================================
   Our skills
 ==================================================================*/
@@ -1431,12 +1394,16 @@ a:focus, a:hover {
 .Contact {
   padding-bottom: 60px;
   padding-top: 80px;
+  height: 100vh;
+  position: relative;
 }
 
 .blog {
   padding-bottom: 60px;
   padding-top: 80px;
   background: #F6F6F6;
+  height: 100vh;
+  position: relative;
 }
 
 .posts {
@@ -2176,27 +2143,27 @@ a:focus, a:hover {
     margin: 0 auto 40px;
     width: 300px;
   }
-  /* pricing table */
-  .pricing {
-    margin: 0 auto 30px;
-    width: 350px;
-  }
-  /* testimonials */
-  .client-info {
-    width: 74%;
-  }
-  /* latest posts */
-  .note {
-    margin: 0 auto 30px;
-    width: 75%;
-  }
-  /* contact */
-  .contact-info {
-    width: 100%;
-  }
-  /* blog page */
-  .tab-post-nav li a {
-    padding: 10px 15px;
-  }
 }
 /*# sourceMappingURL=style.css.map */
+.aboutUs {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: 1px solid black;
+  padding-bottom: 7%;
+  padding-top: 7%;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.stack {
+  height: 100vh;
+  position: relative;
+}
+.service-2-scroll {
+  margin-left: 11%;
+  width: 80%;
+}
+.wrapStack {
+  display: flex;
+}
