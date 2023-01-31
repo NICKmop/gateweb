@@ -23,12 +23,12 @@ for (let i = 0; i < navLink.length; i++)     {
        console.log("click : ", this.text); 
        if (this.text == 'About Us') {
         window.scrollBy({top: menuBoxScroll('aboutUs').getBoundingClientRect().top, behavior: 'smooth'})
-       }else if(this.text == '메인페이지'){
-        window.scrollBy({top: menuBoxScroll('navbarDropdown').getBoundingClientRect().top, behavior: 'smooth'})
+       }else if(this.text == 'Stack'){
+        window.scrollBy({top: menuBoxScroll('stack').getBoundingClientRect().top, behavior: 'smooth'})
+       }else if(this.text == 'JoinProject'){
+        window.scrollBy({top: menuBoxScroll('blog').getBoundingClientRect().top, behavior: 'smooth'})
        }else if(this.text == 'Contact'){
         window.scrollBy({top: menuBoxScroll('Contact').getBoundingClientRect().top, behavior: 'smooth'})
        }
-
-       
     });
 }

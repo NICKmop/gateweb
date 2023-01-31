@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>custom Bootstrap PPSITE</title>
+  <title>changseopPorfolio</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
@@ -75,17 +75,17 @@
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item">
             <a class="nav-link" href="#">
-              메인페이지
+              Main
             </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="#">Stack</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="#">JoinProject</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="#">Contact</a>
@@ -99,7 +99,7 @@
               <li><a class="dropdown-item" href="404.html">404 페이지</a></li>
               <li><a class="dropdown-item" href="https://dtod.tistory.com/">tistory 페이지</a></li>
               <li><a class="dropdown-item" href="https://github.com/NICKmop">github 페이지</a></li>
-              <li><a class="dropdown-item" href="https://www.notion.so/MS-443f77a23c3d49a99c5ee20182589827">notion 페이지</a></li>
+              <li><a class="dropdown-item" href="https://peppered-olive-d22.notion.site/SQL-Table-bb2f9fd9ac6b484f97a89088a95af33d">notion 페이지</a></li>
 
               <li class="dropdown dropdown-submenu dropleft">
                 <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu  <i class="tf-ion-chevron-down"></i></a>
@@ -130,15 +130,38 @@
 		</div>
 	</div>
 </div>
+<section id="aboutUs">
+  <div class="aboutUs">
+    <div class="aboutUs_Content">
+      <h3>자기소개 </h3>
+      <br>
+      <h5>이름 : 이창섭 </h5>
+      <h5>나이 : 96년생 28세 </h5>
+      <h5>학력 : 수원과학대학교 정보통신과(졸업) </h5>
+      <ul>
+        <h5>경력사항 </h5>
+        <li>(주) 라피치         2018.09 ~ 2021.11 [음성인식 소프트웨어 개발]</li>
+        <li>(주) 글로벌원정보기술  2022.02 ~ 2023.02 [IThelpdek 업무 고객 지원]</li>
+        <li>yeon              2022.08 ~ 2023.01 [모바일 웹 개발 동네랑]</li>
+      </ul>
+      <br>
+      <h5>안녕하십니까 이번에 <span style="color: blue;">태림시스템에</span> <br>지원을 하게된 이창섭 이라고 합니다.<br>탐구력이 강하여 어떤 일이든 시켜만 주시면<br>실망하지 않도록 맡은바 최선을 다 하겠습니다.</h5>
+      <h5><span style="font-weight: bold;">랩뷰 프로그램 관해서는 현재는 사용한 경험이 없습니다<br>그러나 저를 믿고 맡겨 주시다면 기대에 부응할수 있는<br>인재가 되도록 하겠습니다!</span></h5>
+    </div>
+    <div class="aboutUs_Content">
+      <!-- <img loading="lazy" src="/static/images/pngwing.com.png" style="align: text-center; width: 20%;"/> -->
+    </div>
+  </div>
+</section>
 <section class="stack" id="stack">
-  <div class="title text-center" style="padding: 60px">
-    <h2>사용해본 기술 스택 입니다.</h2>
-    <div class="border"></div>
+    <div class="title text-center" style="padding: 60px">
+      <h2>사용해본 기술 스택 입니다.</h2>
+      <div class="border"></div>
   </div>
   <div class="wrapStack" id="wrapStack">
-    <button id="left_button" class="previous round" type="button">&#8249;</button>
+    <!-- <button id="left_button" class="previous round" type="button">&#8249;</button> -->
   <section id="service-2-scroll" class="service-2 section" 
-    style="overflow: scroll; overflow-y: hidden; scroll-behavior: smooth; margin-left: 7%; margin-right: 7%;  width: 80%;">
+    style="overflow: scroll; overflow-y: hidden; scroll-behavior: smooth; margin-left: 7%; margin-right: 7%;  width: 90%;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
@@ -147,39 +170,46 @@
       <div class="row">
         <div class="col-md-8">
           <div class="rowsBox text-center">
+            <div class="col-md-6 col-sm-6">
+              <div class="service-item">
+                  <i class="tf-ion-ios-locked-outline"></i>
+                  <h4>flutter</h4>
+                  <p>모바일 앱 제작을 위한 툴로써 앱 제작 후 배포 및 특수 작업을 진행시에 사용한 프레임워크 입니다.</p>
+              </div>
+            </div>
               <div class="col-md-6 col-sm-6">
                   <div class="service-item">
                       <i class="tf-ion-ios-alarm-outline"></i>
                       <h4>html</h4>
-                      <p>html을 통한 뼈대 구성</p>
+                      <p>Spring boot나 Django를 이용하여 backEnd를 제작하기에 앞서 사용자들이 맨 처음 확인 하는 화면을 디자인 하였습니다.</p>
                   </div>
               </div><!-- END COL -->
               <div class="col-md-6 col-sm-6">
                   <div class="service-item">
                       <i class="tf-ion-ios-briefcase-outline"></i>
                       <h4>js</h4>
-                      <p>js를 통한 버튼 및 구성에 대한 이벤트 추가</p>
+                      <p>html을 이용하여 태그 및 Item들에 대한 이벤트 등을 추가하기 위하여 js스크립트를 이용하여 이벤트를 주었습니다.</p>
                   </div>
               </div><!-- END COL -->
               <div class="col-md-6 col-sm-6">
                   <div class="service-item">
                       <i class="tf-ion-ios-email-outline"></i>
                       <h4>css</h4>
-                      <p>css를 통한 사이즈 및 화면 디자인</p>
+                      <p>html을 통하여 FrontEnd를 작성 후 해당 태그 및 화면등에 반응협이나 색깔등을 입히기 위해 사용하였습니다.</p>
                   </div>
               </div><!-- END COL -->
               <div class="col-md-6 col-sm-6">
                   <div class="service-item">
                       <i class="tf-ion-ios-locked-outline"></i>
                       <h4>jquery</h4>
-                      <p>jquery를 통한 태그 id 및 class에 대한 값 부여</p>
+                      <p>js를 이용하여 태그등을 eventListener로 지정하기 전 좀더 편한 js라이브러리 jquery로 하여 태그등에 이벤트를 주어 보았습니다</p>
                   </div>
               </div><!-- END COL -->
               <div class="col-md-6 col-sm-6">
                   <div class="service-item">
                       <i class="tf-ion-ios-locked-outline"></i>
                       <h4>java</h4>
-                      <p>spring boot frameWork를 이용한 서비스단 구성</p>
+                      <p>spring을 이용하여 bE작업 중 모델 및 DB연결 활동을 하기에 앞서 java문법 공부를 통하여 객체를 좀더 쉽게 생성하였습니다.</p>
                   </div>
               </div><!-- END COL -->
               <div class="col-md-6 col-sm-6">
@@ -204,17 +234,17 @@
                   </div>
               </div><!-- END COL -->
               <div class="col-md-6 col-sm-6">
-                  <div class="service-item">
-                      <i class="tf-ion-ios-locked-outline"></i>
-                      <h4>docker</h4>
-                      <p>docker를 이용한 container 구성</p>
-                  </div>
-                </di>
+                <div class="service-item">
+                    <i class="tf-ion-ios-locked-outline"></i>
+                    <h4>docker</h4>
+                    <p>docker를 이용한 container 구성</p>
+                </div>
+              </div>
         </div>
       </div> <!-- End row -->
     </div> <!-- End container -->
   </section> <!-- End section -->
-  <button id="right_button" class="next round" type="button">&#8250;</button>
+  <!-- <button id="right_button" class="next round" type="button">&#8250;</button> -->
   </div>
 </section>
 <section class="blog" id="blog">
@@ -239,16 +269,16 @@
 			<article class="col-lg-4 col-md-6">
 				<div class="post-item">
 					<div class="content">
-						<h3><a href="single-post.html">PD 자동화 프로젝트</a></h3>
-						<a class="btn btn-main" href="single-post.html">Read more</a>
+						<h3>PD 자동화 프로젝트</h3>
+						<a class="btn btn-main" href="https://peppered-olive-d22.notion.site/PangData-f54e22454a834713b60e9b06bcff2aa4">Read more</a>
 					</div>
 				</div>
 			</article>
 			<article class="col-lg-4 col-md-6">
 				<div class="post-item">
 					<div class="content">
-						<h3><a href="single-post.html">flutter프로젝트</a></h3>
-						<a class="btn btn-main" href="single-post.html">Read more</a>
+						<h3>동네랑 프로젝트</h3>
+						<a class="btn btn-main" href="https://peppered-olive-d22.notion.site/yeon-4f05bc5c1f7c415abf51837cb1b85ea6">Read more</a>
 					</div>
 				</div>
 			</article>
@@ -274,57 +304,15 @@
           <div class="row mb-5">
             <div class="col-md-4 mr-auto">
               <h3 class="thin-heading mb-4">경기도 안산</h3>
-              <p>본오동 1112-xx 번지 xxx호</p>
+              <p>본오동 1xxx-xx 번지 xxx호</p>
             </div>
             <div class="col-md-6 ml-auto">
               <h3 class="thin-heading mb-4">Contact Info</h3>
-              <p>T: 010 - 5104 - 2664<br> E: dlckdtjq153@gmail.com</p>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-12">
-              <h3 class="thin-heading mb-4">Message Us</h3>
-              <form class="mb-5" method="post" id="contactForm" name="contactForm">
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-                  </div>
-                  <div class="col-md-6 form-group">
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12 form-group">
-                    <textarea class="form-control" name="message" id="message" cols="30" rows="2" placeholder="Write your message"></textarea>
-                  </div>
-                </div>  
-                <div class="row">
-                  <div class="col-12">
-                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
-                  <span class="submitting"></span>
-                  </div>
-                </div>
-              </form>
-              <div id="form-message-warning mt-4"></div> 
-              <div id="form-message-success">
-                Your message was sent, thank you!
-              </div>
+              <p>T: 010 - 5xxx - 2xxx<br> E: dlckdtjq153@gmail.com</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<section id="aboutUs" class="aboutUs">
-  <div class="aboutUs">
-    <div class="aboutUs_Content">
-      <h3>About Us (저를 소개 합니다 :)</h3>
-      <br>
-      <h5>안녕하세요 숙련된 개발자가 되기 위해</h5>
-    </div>
-    <div class="aboutUs_Content">
-      <h2>사진 등록 항목</h2>
     </div>
   </div>
 </section>
@@ -356,7 +344,7 @@
             </li>2
             <li><a href="https://dtod.tistory.com/">tistory</a></li>
             <li><a href="https://github.com/NICKmop">Github</a></li>
-            <li><a href="https://www.notion.so/MS-443f77a23c3d49a99c5ee20182589827">notion</a></li>
+            <li><a href="https://peppered-olive-d22.notion.site/SQL-Table-bb2f9fd9ac6b484f97a89088a95af33d">notion</a></li>
           </ul>
         </div>
       </div>
